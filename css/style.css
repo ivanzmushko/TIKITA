@@ -1,4 +1,4 @@
-    /*  */
+    /* reset */
     
     *,
     *::before,
@@ -54,7 +54,7 @@
         margin: 0px auto;
         box-sizing: content-box;
     }
-    /*  */
+    /* reset */
     
     .header {
         background-image: url(../img/cover.jpg);
@@ -86,6 +86,9 @@
         line-height: 170%;
         color: #FFFFFF
     }
+    .menu-link:hover {
+        color: #FFCA33;
+    }
     
     .call {
         display: flex;
@@ -101,7 +104,9 @@
     .number a {
         color: #FFFFFF;
     }
-    
+    .number a:hover {
+        color: #FFCA33;
+    }
     .number-call {
         flex-direction: column;
     }
@@ -114,6 +119,8 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 200%;
+    }
+    .back-call:hover {
         text-decoration-line: underline;
     }
     
@@ -127,6 +134,9 @@
     
     .viber-call {
         margin: 0px 0px 0px 15px;
+    }
+    .whatsapp-call:hover, .viber-call:hover {
+        opacity: 0.6;
     }
     /*  */
     
@@ -260,7 +270,8 @@
         font-family: Montserrat;
     }
     
-    .get-price-btn:active {
+    .get-price-btn:active,
+    .get-price-btn:hover {
         border: none;
         background: #FFCA33;
     }
@@ -287,6 +298,9 @@
         border: 1px solid #F2F2F2;
         max-width: 386px;
         max-height: 636px;
+    }
+    .good-offers-item:hover {
+        border: 1px solid #FFCA33;
     }
     
     .good-offers-img img {
@@ -352,7 +366,8 @@
         font-family: Montserrat;
     }
     
-    .good-offers-btn button:active {
+    .good-offers-btn button:active,
+    .good-offers-btn button:hover {
         border: none;
         background: #FFCA33;
     }
@@ -421,7 +436,8 @@
         color: #7360F2;
     }
     
-    .social-network:active {
+    .social-network:active,
+    .social-network:hover {
         opacity: 0.6;
     }
     
@@ -458,7 +474,10 @@
         display: flex;
         flex-direction: column;
     }
-    
+    .advantage:hover {
+        border: 1px solid #FFCA33;
+    }
+  
     .advantage-image {
         padding: 20px 0px 0px 22px;
     }
@@ -511,6 +530,9 @@
         border-radius: 5px;
         display: flex;
         flex-direction: column;
+    }
+    .conditions-item:hover {
+        border: 1px solid #FFCA33;
     }
     
     .conditions-img {
@@ -578,7 +600,8 @@
         padding: 90px 0px;
     }
     
-    .conditions-btn button:active {
+    .conditions-btn button:active,
+    .conditions-btn button:hover {
         border: none;
         background: #FFCA33;
     }
@@ -663,7 +686,8 @@
         background: none;
     }
     
-    .form-banner-btn button:active {
+    .form-banner-btn button:active,
+    .form-banner-btn button:hover {
         border: none;
         background: #FFCA33;
     }
@@ -692,7 +716,10 @@
         box-sizing: border-box;
         border-radius: 5px;
     }
-    
+    .most-adventages-item:hover {
+        border: 1px solid #FFCA33;
+    }
+ 
     .most-adventages-item img {
         padding: 20px 0px 20px 22px;
     }
@@ -787,6 +814,10 @@
     
     .assortment-img {
         padding: 0px 0px 30px 0px;
+        transition: 1s;
+    }
+    .assortment-img:hover {
+        transform: scale(1.2);
     }
     
     .assortment-button {
@@ -812,7 +843,8 @@
         border-radius: 5px;
     }
     
-    .assortment-button button:active {
+    .assortment-button button:active,
+    .assortment-button button:hover {
         border: none;
         background: #FFCA33;
     }
@@ -863,7 +895,8 @@
         margin: 25px 0px;
     }
     
-    .footer-btn button:active {
+    .footer-btn button:active,
+    .footer-btn button:hover {
         background-color: #FFCA33;
         color: black;
     }
