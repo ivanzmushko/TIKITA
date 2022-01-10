@@ -1,5 +1,5 @@
     /* reset */
-    
+
     *,
     *::before,
     *::after {
@@ -8,21 +8,21 @@
         border: 0;
         box-sizing: border-box;
     }
-    
+
     a {
         text-decoration: none;
     }
-    
+
     ul,
     ol,
     li {
         list-style: none;
     }
-    
+
     img {
         vertical-align: top;
     }
-    
+
     h1,
     h2,
     h3,
@@ -32,7 +32,7 @@
         font-weight: inherit;
         font-size: inherit;
     }
-    
+
     html,
     body {
         height: 100%;
@@ -41,156 +41,165 @@
         color: #000;
         font-family: Montserrat;
     }
+
     /*  */
-    
+
     .wrapper {
         min-height: 100%;
         overflow: hidden;
     }
-    
+
     .container {
         max-width: 1218px;
         padding: 0px 15px 0px 15px;
         margin: 0px auto;
         box-sizing: content-box;
     }
+
     /* reset */
-    
+
     .header {
         background-image: url(../img/cover.jpg);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
     }
-    
+
     .header-container {
         display: flex;
         min-height: 170px;
         align-items: center;
     }
-    
+
     .menu {
         margin: 0px 0px 0px 94px;
     }
-    
+
     .menu-list {
         display: flex;
     }
-    
+
     .menu-item:not(:last-child) {
         margin: 0px 31px 0px 0px;
     }
-    
+
     .menu-link {
         font-weight: normal;
         line-height: 170%;
         color: #FFFFFF
     }
+
     .menu-link:hover {
         color: #FFCA33;
     }
-    
+
     .call {
         display: flex;
         margin-left: auto;
     }
-    
+
     .number {
         font-weight: bold;
         font-size: 26px;
         line-height: 140%;
     }
-    
+
     .number a {
         color: #FFFFFF;
     }
+
     .number a:hover {
         color: #FFCA33;
     }
+
     .number-call {
         flex-direction: column;
     }
-    
+
     .calls {
         flex-direction: row;
     }
-    
+
     .back-call {
         font-weight: normal;
         font-size: 14px;
         line-height: 200%;
     }
+
     .back-call:hover {
         text-decoration-line: underline;
     }
-    
+
     .back-call a {
         color: #FFCA33;
     }
-    
+
     .whatsapp-call {
         margin: 0px 0px 0px 12px;
     }
-    
+
     .viber-call {
         margin: 0px 0px 0px 15px;
     }
-    .whatsapp-call:hover, .viber-call:hover {
+
+    .whatsapp-call:hover,
+    .viber-call:hover {
         opacity: 0.6;
     }
+
     /*  */
-    
+
     .main {
         flex: 1 1 auto;
     }
-    
+
     .get-price-container {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .get-price-title {
         padding: 30px 0px 0px 0px;
         max-width: 658px;
     }
-    
+
     .first-block {
         flex-direction: column;
     }
-    
+
     .get-price-title h1 {
         font-weight: bold;
         font-size: 50px;
         line-height: 120%;
         color: #FFFFFF;
     }
-    
+
     .get-price-title span,
     .get-price-text span {
         color: #FFCA33;
     }
-    
+
     .get-price-label {
         padding: 20px 0px 0px 0px;
     }
-    
+
     .label {
         padding: 40px 0px 0px 0px;
         display: flex;
     }
-    
+
     .get-price-text {
         padding: 0px 0px 0px 27px;
     }
-    
+
     .gpt1 {
         max-width: 268px;
     }
-    
+
     .gpt2 {
         max-width: 311px;
     }
-    
+
     .get-price-text h3 {
         font-weight: 500;
         font-size: 18px;
@@ -198,11 +207,11 @@
         letter-spacing: 0.02em;
         color: #EEEEEE;
     }
-    
+
     .get-price-form {
         display: flex;
     }
-    
+
     .get-price-form form {
         width: 416px;
         height: 575px;
@@ -213,7 +222,7 @@
         border-radius: 10px;
         margin-bottom: 117px;
     }
-    
+
     .get-price-form h3 {
         padding: 48px 0px 0px 30px;
         font-weight: bold;
@@ -222,7 +231,7 @@
         color: #333333;
         max-width: 300px;
     }
-    
+
     .get-price-form h4 {
         padding: 10px 0px 4px 30px;
         font-weight: 500;
@@ -231,11 +240,11 @@
         color: #4F4F4F;
         max-width: 300px;
     }
-    
+
     .get-price-form span {
         color: red;
     }
-    
+
     .inputname,
     .inputphone,
     .inputmail {
@@ -253,7 +262,7 @@
         padding: 16px 0px 20px 16px;
         font-family: Montserrat;
     }
-    
+
     .get-price-btn {
         margin: 20px 30px 49px 30px;
         max-width: 356px;
@@ -269,17 +278,17 @@
         color: #383838;
         font-family: Montserrat;
     }
-    
+
     .get-price-btn:active,
     .get-price-btn:hover {
         border: none;
         background: #FFCA33;
     }
-    
+
     .good-offers-title {
         padding: 60px 0px 50px 0px;
     }
-    
+
     .good-offers-title h2 {
         font-weight: bold;
         font-size: 32px;
@@ -287,27 +296,28 @@
         text-align: center;
         color: #333333;
     }
-    
+
     .good-offers-container {
         display: flex;
         justify-content: space-between;
         padding: 0px 0px 100px 0px;
     }
-    
+
     .good-offers-item {
         border: 1px solid #F2F2F2;
         max-width: 386px;
         max-height: 636px;
     }
+
     .good-offers-item:hover {
         border: 1px solid #FFCA33;
     }
-    
+
     .good-offers-img img {
         width: 386px;
         height: 302px
     }
-    
+
     .good-offers-content h3 {
         padding: 20px 0px 0px 16px;
         font-weight: bold;
@@ -315,7 +325,7 @@
         line-height: 160%;
         color: #333333;
     }
-    
+
     .good-offers-content h4 {
         padding: 11px 0px 0px 16px;
         font-weight: 500;
@@ -323,7 +333,7 @@
         line-height: 140%;
         color: #333333;
     }
-    
+
     .good-offers-content h5 {
         padding: 20px 0px 0px 16px;
         font-weight: normal;
@@ -331,11 +341,11 @@
         line-height: 160%;
         color: #828282;
     }
-    
+
     .good-offers-content ul {
         padding: 10px 0px 0px 0px;
     }
-    
+
     .good-offers-content li {
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px 40px;
@@ -346,7 +356,7 @@
         line-height: 160%;
         color: #828282;
     }
-    
+
     .good-offers-btn button {
         border: 1px solid #333333;
         margin: 30px 28px 28px 16px;
@@ -365,20 +375,20 @@
         white-space: nowrap;
         font-family: Montserrat;
     }
-    
+
     .good-offers-btn button:active,
     .good-offers-btn button:hover {
         border: none;
         background: #FFCA33;
     }
-    
+
     .banner-container {
         background-image: url(../img/banner.png);
         height: 218px;
         background-position: center;
         border-radius: 10px;
     }
-    
+
     .banner-title h3 {
         padding: 47px 0px 31px 0px;
         font-weight: 600;
@@ -387,14 +397,14 @@
         text-align: center;
         color: #FFFFFF;
     }
-    
+
     .socials {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0px 15px;
     }
-    
+
     .social-network {
         width: 180px;
         height: 60px;
@@ -404,16 +414,16 @@
         background: white;
         border-radius: 10px;
     }
-    
+
     .social-network:not(:last-child) {
         margin: 0px 20px 0px 0px;
     }
-    
+
     .sn-img {
         display: flex;
         align-items: center;
     }
-    
+
     .sn-text {
         padding: 0px 0px 0px 14px;
         align-items: center;
@@ -423,28 +433,28 @@
         line-height: 17px;
         text-align: center;
     }
-    
+
     .social-network h4 {
         color: #29B6F6;
     }
-    
+
     .social-network h5 {
         color: #48C95F;
     }
-    
+
     .social-network h6 {
         color: #7360F2;
     }
-    
+
     .social-network:active,
     .social-network:hover {
         opacity: 0.6;
     }
-    
+
     .advantages-container {
         padding: 100px 0px 0px 0px;
     }
-    
+
     .advantages-title {
         display: flex;
         font-weight: bold;
@@ -455,7 +465,7 @@
         max-width: 800px;
         margin: auto;
     }
-    
+
     .set-of-advantages {
         padding: 20px 0px 100px 0px;
         display: flex;
@@ -463,7 +473,7 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .advantage {
         margin: 30px 0px 0px 0px;
         border: 1px solid #F2F2F2;
@@ -474,14 +484,15 @@
         display: flex;
         flex-direction: column;
     }
+
     .advantage:hover {
         border: 1px solid #FFCA33;
     }
-  
+
     .advantage-image {
         padding: 20px 0px 0px 22px;
     }
-    
+
     .advantage-title {
         padding: 10px 0px 0px 22px;
         max-width: 301px;
@@ -490,7 +501,7 @@
         line-height: 140%;
         color: #333333;
     }
-    
+
     .advantage-text {
         margin: auto 22px 24px;
         font-weight: normal;
@@ -499,11 +510,11 @@
         color: #4F4F4F;
         max-width: 340px;
     }
-    
+
     .conditions {
         background: #F6F6F6;
     }
-    
+
     .conditions-title {
         padding: 86px 0px 0px 0px;
         font-weight: bold;
@@ -514,14 +525,14 @@
         max-width: 930px;
         margin: auto;
     }
-    
+
     .condtions-container {
         padding: 51px 0px 100px 0px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .conditions-item {
         width: 386px;
         height: 570px;
@@ -531,19 +542,20 @@
         display: flex;
         flex-direction: column;
     }
+
     .conditions-item:hover {
         border: 1px solid #FFCA33;
     }
-    
+
     .conditions-img {
         max-width: 384px;
         height: 224px;
     }
-    
+
     .call-ico {
         margin: -40px 0px 0px 22px;
     }
-    
+
     .conditions-subtitle {
         padding: 36px 0px 0px 22px;
         font-weight: bold;
@@ -551,7 +563,7 @@
         line-height: 140%;
         color: #333333;
     }
-    
+
     .conditions-text {
         padding: 20px 0px 0px 22px;
         font-weight: normal;
@@ -560,18 +572,18 @@
         color: #4F4F4F;
         max-width: 342px;
     }
-    
+
     .conditions-btn {
         margin: auto 22px 31px 22px;
     }
-    
+
     .conditions-content {
         height: 346px;
         width: 386px;
         display: flex;
         flex-direction: column;
     }
-    
+
     .conditions-btn button {
         width: 342px;
         height: 50px;
@@ -589,23 +601,23 @@
         background: none;
         border-radius: 5px;
     }
-    
+
     .form-banner {
         background-image: url(../img/form-banner-cover.png);
         background-repeat: no-repeat;
         background-position: center;
     }
-    
+
     .form-banner-container {
         padding: 90px 0px;
     }
-    
+
     .conditions-btn button:active,
     .conditions-btn button:hover {
         border: none;
         background: #FFCA33;
     }
-    
+
     .form-banner form {
         height: 370px;
         background-color: white;
@@ -620,7 +632,7 @@
         background-position-x: 105%;
         background-position-y: 135%;
     }
-    
+
     .form-banner h2 {
         padding: 42px 0px 0px 0px;
         display: flex;
@@ -630,7 +642,7 @@
         line-height: 170%;
         color: #333333;
     }
-    
+
     .form-banner h3 {
         margin: 0px;
         font-weight: 500;
@@ -639,18 +651,18 @@
         text-align: center;
         color: #333333;
     }
-    
+
     .form-banner span {
         color: red;
     }
-    
+
     .form-banner-inputs {
         padding: 30px 55px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .form-banner input {
         width: 330px;
         height: 60px;
@@ -662,12 +674,12 @@
         padding: 16px 150px 20px 16px;
         font-family: Montserrat;
     }
-    
+
     .form-banner-btn {
         display: flex;
         justify-content: center;
     }
-    
+
     .form-banner-btn button {
         width: 356px;
         height: 80px;
@@ -685,13 +697,13 @@
         border-radius: 5px;
         background: none;
     }
-    
+
     .form-banner-btn button:active,
     .form-banner-btn button:hover {
         border: none;
         background: #FFCA33;
     }
-    
+
     .most-adventages-title {
         display: flex;
         justify-content: center;
@@ -701,14 +713,14 @@
         line-height: 140%;
         color: #333333;
     }
-    
+
     .most-adventages-container {
         display: flex;
         flex-direction: row;
         padding: 0px 0px 100px 0px;
         justify-content: space-between;
     }
-    
+
     .most-adventages-item {
         width: 386px;
         height: 329px;
@@ -716,14 +728,15 @@
         box-sizing: border-box;
         border-radius: 5px;
     }
+
     .most-adventages-item:hover {
         border: 1px solid #FFCA33;
     }
- 
+
     .most-adventages-item img {
         padding: 20px 0px 20px 22px;
     }
-    
+
     .most-adventages-item h3 {
         padding: 0px 0px 20px 22px;
         font-weight: bold;
@@ -732,7 +745,7 @@
         color: #333333;
         max-width: 335px;
     }
-    
+
     .most-adventages-item h4 {
         padding: auto;
         margin: 0px 0px 27px 22px;
@@ -742,7 +755,7 @@
         color: #4F4F4F;
         max-width: 330px;
     }
-    
+
     .top-bags-title {
         padding: 0px 0px 2 0px 0px;
         font-weight: bold;
@@ -751,7 +764,7 @@
         text-align: center;
         color: #333333;
     }
-    
+
     .top-bags-container {
         padding: 0px 0px 100px 0px;
         display: flex;
@@ -759,7 +772,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
     .top-bags-item {
         margin: 30px 0px 0px 0px;
         width: 282px;
@@ -769,11 +782,11 @@
         border-radius: 5px;
         box-shadow: 5px 10px 15px 5px rgba(120, 120, 120, 0.1);
     }
-    
+
     .top-bags-image {
         padding: 18px 20px 0px;
     }
-    
+
     .top-bags-item-content h3 {
         padding: 9px 0px 6px 20px;
         font-weight: 600;
@@ -781,7 +794,7 @@
         line-height: 160%;
         color: #4F4F4F;
     }
-    
+
     .top-bags-item-content h4 {
         padding: 0px 30px 0px 20px;
         font-weight: normal;
@@ -789,11 +802,11 @@
         line-height: 160%;
         color: #828282;
     }
-    
+
     .top-bags-item-content span {
         color: #333333;
     }
-    
+
     .assortment-title {
         padding: 100px 0px 50px 00px;
         display: flex;
@@ -803,7 +816,7 @@
         line-height: 140%;
         color: #333333;
     }
-    
+
     .assortment-container {
         padding: 0px 0px 100px 00px;
         display: flex;
@@ -811,15 +824,16 @@
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
     .assortment-img {
         padding: 0px 0px 30px 0px;
         transition: 1s;
     }
+
     .assortment-img:hover {
         transform: scale(1.2);
     }
-    
+
     .assortment-button {
         padding: 20px 0px 0px 0px;
         display: flex;
@@ -827,7 +841,7 @@
         justify-content: center;
         margin: auto;
     }
-    
+
     .assortment-button button {
         width: 653px;
         height: 50px;
@@ -842,35 +856,35 @@
         border: 1px solid #333333;
         border-radius: 5px;
     }
-    
+
     .assortment-button button:active,
     .assortment-button button:hover {
         border: none;
         background: #FFCA33;
     }
-    
+
     .assortment-button img {
         margin-top: -5px;
         margin-left: 10px;
     }
-    
+
     .footer {
         background: #252527;
     }
-    
+
     .footer-row-container {
         border-bottom: 1px solid #828282;
     }
-    
+
     .footer-row {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .footer-logo {
         padding: 15px 0px;
     }
-    
+
     .footer-text {
         max-width: 560px;
         font-weight: normal;
@@ -880,7 +894,7 @@
         color: #828282;
         padding: 40px 0px;
     }
-    
+
     .footer-btn button {
         border: 1px solid #FFCA33;
         box-sizing: border-box;
@@ -894,13 +908,13 @@
         padding: 30px 60.5px;
         margin: 25px 0px;
     }
-    
+
     .footer-btn button:active,
     .footer-btn button:hover {
         background-color: #FFCA33;
         color: black;
     }
-    
+
     .footer-content {
         padding: 50px 0px 40px 0px;
         display: flex;
@@ -908,13 +922,13 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .footer-item {
         width: 250px;
         height: 85px;
         margin: 0px 0px 30px 0px;
     }
-    
+
     .footer-item h3 {
         font-weight: normal;
         font-size: 16px;
@@ -922,7 +936,7 @@
         letter-spacing: 0.02em;
         color: #828282;
     }
-    
+
     .footer-item h4 {
         font-weight: normal;
         font-size: 16px;
@@ -930,16 +944,16 @@
         letter-spacing: 0.02em;
         color: #F4F4F4;
     }
-    
+
     .footer-bottom-row {
         border-top: 1px solid #828282;
     }
-    
+
     .footer-bottom-row-text {
         display: flex;
         justify-content: space-between;
     }
-    
+
     .footer-bottom-row-text h3 {
         padding: 28px 0px;
         font-weight: normal;
@@ -947,7 +961,7 @@
         line-height: 160%;
         color: #828282;
     }
-    
+
     .footer-bottom-row-text h4 {
         padding: 28px 0px;
         font-weight: normal;
@@ -955,46 +969,54 @@
         line-height: 160%;
         color: #828282;
     }
-    
+
     @media (max-width: 1225px) {
         .menu {
             margin: 0px 0px 0px 70px;
         }
     }
-    
+
     @media (max-width: 1200px) {
         .set-of-advantages {
             padding: 10px 0px 60px 0px;
         }
+
         .advantage {
             margin: 20px 0px 0px 0px;
             max-width: 354px;
             height: 262px;
         }
+
         #top-bags-item-4 {
             display: none;
         }
+
         .top-bags-title {
             padding: 0px 0px 30px 0px;
         }
+
         .top-bags-container {
             padding: 40px 0px 100px 0px;
             display: flex;
             flex-direction: row;
         }
+
         .top-bags-item {
             margin: 30px 0px 0px 0px;
             width: 370px;
             height: 455px;
         }
+
         .top-bags-image {
             padding: 18px 20px 0px;
         }
+
         .top-bags-image {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         .top-bags-item-content {
             display: flex;
             flex-direction: column;
@@ -1002,22 +1024,25 @@
             text-align: left;
             margin-left: 25%;
         }
+
         .assortment-img img {
             width: 262px;
             height: 266px;
         }
     }
-    
+
     @media (max-width: 1220px) {
         .menu {
             margin: 0px 0px 0px 50px;
         }
+
         .good-offers-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 0px 0px 100px 0px;
         }
+
         .good-offers-item {
             display: flex;
             flex-direction: row;
@@ -1025,15 +1050,18 @@
             max-height: 330px;
             margin: 0px 0px 30px 0px;
         }
+
         .good-offers-img img {
             max-width: 352px;
             max-height: 330px
         }
+
         .condtions-container {
             padding: 11px 0px 100px 0px;
             flex-direction: column;
             align-items: center;
         }
+
         .conditions-item {
             margin: 30px 0px 0px 0px;
             display: flex;
@@ -1041,31 +1069,40 @@
             height: 328px;
             flex-direction: row;
         }
+
         .cond-img {
             display: none;
         }
+
         .conditions-img {
             width: 352px;
             height: 328px;
         }
+
         #cond-img1 {
             background-image: url(../img/conditions-item1-1.png);
         }
+
         #cond-img2 {
             background-image: url(../img/conditions-item2-1.png);
         }
+
         #cond-img3 {
             background-image: url(../img/conditions-item3-1.png);
         }
+
         .conditions-content {
             width: 356px;
         }
+
         .call-ico {
             margin: 15px 20px 253px 273px;
         }
+
         .most-adventages-title {
             padding: 60px 0px 10px;
         }
+
         .most-adventages-container {
             display: flex;
             flex-direction: column;
@@ -1073,36 +1110,41 @@
             justify-content: center;
             align-items: center;
         }
+
         .most-adventages-item {
             margin: 30px 0px 0px 0px;
             width: 727px;
             height: 240px;
         }
+
         .most-adventages-item h3 {
             padding: 0px 0px 20px 22px;
             max-width: 100%;
         }
+
         .most-adventages-item h4 {
             padding: auto;
             margin: 0px 0px 29px 22px;
             max-width: 686px;
         }
     }
-    
+
     @media (max-width: 1170px) {
         .menu {
             margin: 0px 0px 0px 30px;
         }
+
         .form-banner input {
             width: 300px;
             padding: 16px 130px 20px 16px;
         }
+
         .top-bags-item {
             width: 330px;
             height: 425px;
         }
     }
-    
+
     @media (max-width: 1110px) {
         .advantage {
             margin: 20px 0px 0px 0px;
@@ -1110,61 +1152,75 @@
             height: 262px;
         }
     }
-    
+
     @media (max-width: 1100px) {
         .menu {
             display: none;
         }
+
         .get-price-title {
             padding: 55px 0px 0px 0px;
             max-width: 600px;
         }
+
         .get-price-title h1 {
             font-size: 45px;
         }
+
         .get-price-label {
             padding: 0;
         }
+
         .label {
             padding: 30px 0px 0px 0px;
         }
+
         .get-price-text h3 {
             font-size: 16px;
         }
+
         .get-price-text {
             padding-top: 5px;
         }
+
         .gpt1 {
             max-width: 240px;
         }
+
         .gpt2 {
             max-width: 276px;
         }
+
         .get-price-container {
             display: flex;
             justify-content: start;
             flex-direction: column;
         }
+
         .get-price-form {
             padding: 42px 0px 0px 0px;
             display: flex;
             justify-content: center;
         }
+
         .get-price-form form {
             width: 850px;
             height: 315px;
             margin-bottom: 117px;
         }
+
         .get-price-form h3 {
             padding: 32px 0px 0px 0px;
             max-width: 100%;
             text-align: center;
         }
+
         .get-price-form h4 {
             padding: 10px 0px 0px 0px;
             max-width: 100%;
             text-align: center;
         }
+
         .inputname,
         .inputphone,
         .inputmail {
@@ -1172,88 +1228,105 @@
             padding: 18px 0px 18px 20px;
             margin-left: 22px;
         }
+
         .get-price-btn {
             max-width: 333px;
             margin-left: 255px;
         }
+
         .assortment-title {
             padding: 60px 0px 50px 00px;
         }
+
         #assortment-img-4 {
             display: none;
         }
+
         .assortment-img img {
             width: 322px;
             height: 326px;
         }
     }
-    
+
     @media (max-width: 1050px) {
         .advantage {
             max-width: 300px;
             height: 262px;
         }
+
         .form-banner input {
             width: 250px;
             padding: 16px 80px 20px 16px;
         }
+
         .top-bags-item {
             width: 300px;
             height: 395px;
         }
+
         .assortment-img img {
             width: 302px;
             height: 306px;
         }
+
         .footer-btn {
             display: none;
         }
+
         .footer-row {
             justify-content: start;
         }
+
         .footer-text {
             padding-left: 10%;
         }
+
         .footer-item {
             width: 230px;
             height: 85px;
             margin: 0px 0px 30px 0px;
         }
     }
-    
+
     @media (max-width: 990px) {
         .assortment-img img {
             width: 282px;
             height: 286px;
         }
+
         .assortment-img {
             padding: 0px 0px 20px 0px;
         }
     }
-    
+
     @media (max-width: 950px) {
         .advantage {
             max-width: 280px;
             height: 262px;
         }
+
         .form-banner input {
             width: 230px;
             padding: 16px 60px 20px 16px;
         }
+
         .form-banner form {
             background-position-x: 100%;
             background-position-y: 100%;
             background-size: 30%;
         }
+
         .top-bags-title {
             max-width: 500px;
             display: flex;
             margin: auto;
         }
+
         .top-bags-item {
             width: 430px;
             height: 430px;
         }
+
         .footer-content {
             padding: 50px 0px 40px 0px;
             display: flex;
@@ -1261,104 +1334,118 @@
             flex-wrap: wrap;
             justify-content: start;
         }
+
         .footer-item {
             margin: 0px auto 30px auto;
         }
     }
-    
+
     @media (max-width: 910px) {
         .top-bags-item {
             width: 400px;
             height: 400px;
         }
+
         .assortment-img img {
             width: 262px;
             height: 266px;
         }
+
         .assortment-img {
             padding: 0px 0px 20px 0px;
         }
     }
-    
+
     @media (max-width: 880px) {
         .get-price-form form {
             width: 700px;
         }
+
         .inputname,
         .inputphone,
         .inputmail {
             max-width: 210px;
             margin-left: 15px;
         }
+
         .get-price-btn {
             margin-left: 180px;
         }
+
         .good-offers-title {
             padding: 60px 0px 40px 0px;
         }
+
         .advantage {
             max-width: 404px;
             height: 262px;
         }
+
         .form-banner input {
             width: 210px;
             padding: 16px 40px 20px 16px;
         }
     }
-    
+
     @media (max-width: 850px) {
         .top-bags-item {
             width: 340px;
             height: 400px;
         }
+
         .assortment-img img {
             width: 252px;
             height: 256px;
         }
     }
-    
+
     @media (max-width: 820px) {
         .assortment-img img {
             width: 242px;
             height: 246px;
         }
     }
-    
+
     @media (max-width: 810px) {
         .set-of-advantages {
             flex-direction: column;
             align-items: center;
         }
+
         .advantage {
             max-width: 500px;
             height: 262px;
         }
+
         .form-banner h2 {
             padding: 32px 0px 0px 0px;
             font-size: 25px;
             line-height: 140%;
             color: #333333;
         }
+
         .form-banner h3 {
             font-size: 16px;
             line-height: 170%;
         }
+
         .form-banner form {
             height: 315px;
         }
+
         .form-banner input {
             width: 190px;
             padding: 16px 20px 20px 16px;
         }
     }
-    
+
     @media (max-width: 800px) {
         .assortment-img img {
             width: 232px;
             height: 236px;
         }
     }
-    
+
     @media (max-width: 770px) {
         .footer-content {
             padding: 50px 0px 40px 0px;
@@ -1367,14 +1454,16 @@
             flex-wrap: wrap;
             justify-content: start;
         }
+
         .footer-text {
             padding-left: 20px;
         }
+
         .footer-item {
             margin: 0px 100px 30px 0px;
         }
     }
-    
+
     @media (max-width: 750px) {
         .most-adventages-container {
             display: flex;
@@ -1383,34 +1472,42 @@
             justify-content: center;
             align-items: center;
         }
+
         .most-adventages-item {
             width: 386px;
             height: 329px;
         }
+
         .most-adventages-item h3 {
             padding: 0px 0px 20px 22px;
             max-width: 335px;
         }
+
         .most-adventages-item h4 {
             padding: auto;
             margin: 0px 0px 27px 22px;
             max-width: 330px;
         }
+
         .top-bags-title {
             padding: 0px 0px 2 0px 0px;
         }
+
         .top-bags-container {
             padding: 0px 0px 100px 0px;
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         .top-bags-container h3 {
             font-size: 22px;
         }
+
         .top-bags-container h4 {
             font-size: 20px;
         }
+
         .top-bags-item {
             margin: 30px 0px 0px 0px;
             width: 600px;
@@ -1420,46 +1517,55 @@
             align-items: center;
             overflow: hidden;
         }
+
         .top-bags-image {
             padding: 0px 20px 0px;
         }
+
         .top-bags-item-content {
             display: flex;
             flex-direction: column;
             align-items: left;
             margin: 45px 0px 0px 0px;
         }
+
         #assortment-img-3 {
             display: none;
         }
+
         .assortment-img img {
             width: 332px;
             height: 336px;
         }
+
         .assortment-img {
             padding: 0px 0px 35px 0px;
         }
     }
-    
+
     @media (max-width: 735px) {
         .get-price-form form {
             width: 570px;
         }
+
         .inputname,
         .inputphone,
         .inputmail {
             max-width: 180px;
             margin-left: 5px;
         }
+
         .get-price-btn {
             margin-left: 113px;
         }
+
         .good-offers-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 0px 0px 100px 0px;
         }
+
         .good-offers-item {
             display: flex;
             flex-direction: column;
@@ -1467,18 +1573,22 @@
             max-width: 352px;
             max-height: 670px;
         }
+
         .good-offers-img img {
             max-width: 352px;
             max-height: 330px
         }
+
         .good-offers-btn button {
             padding: 13px 46px;
         }
+
         .condtions-container {
             padding: 0px 0px 100px 0px;
             flex-direction: column;
             align-items: center;
         }
+
         .conditions-item {
             margin: 30px 0px 0px 0px;
             display: flex;
@@ -1486,13 +1596,16 @@
             height: 328px;
             flex-direction: row;
         }
+
         .conditions-img {
             width: 320px;
             height: 265px;
         }
+
         .conditions-content {
             width: 295px;
         }
+
         .conditions-title {
             padding: 50px 0px 0px 0px;
             font-size: 20px;
@@ -1501,20 +1614,24 @@
             max-width: 320px;
             margin: auto;
         }
+
         .condtions-container {
             padding: 51px 0px 100px 0px;
             display: flex;
             flex-direction: column;
         }
+
         .conditions-item {
             width: 320px;
             height: 604px;
             display: flex;
             flex-direction: column;
         }
+
         .call-ico {
             margin: 217px 0px 0px 17px;
         }
+
         .conditions-subtitle {
             padding: 20px 0px 0px 17px;
             font-weight: bold;
@@ -1522,55 +1639,66 @@
             line-height: 140%;
             color: #333333;
         }
+
         .conditions-text {
             padding: 20px 0px 0px 17px;
             max-width: 342px;
         }
+
         .conditions-btn {
             margin: auto 22px 31px 17px;
         }
+
         .conditions-btn button {
             width: 286px;
             padding: 13px 30px;
         }
+
         .form-banner input {
             width: 175px;
             padding: 16px 5px 20px 16px;
         }
+
         .assortment-img img {
             width: 322px;
             height: 326px;
         }
+
         .assortment-img {
             padding: 0px 0px 30px 0px;
         }
     }
-    
+
     @media (max-width: 705px) {
         .assortment-img img {
             width: 312px;
             height: 316px;
         }
+
         .assortment-img {
             padding: 0px 0px 30px 0px;
         }
+
         .footer-item {
             margin: 0px 80px 30px 0px;
         }
     }
-    
+
     @media (max-width: 688px) {
         .assortment-title h2 {
             max-width: 370px;
             text-align: center;
         }
+
         .assortment-img img {
             width: 302px;
             height: 306px;
         }
+
         .assortment-img {
             padding: 0px 0px 30px 0px;
         }
+
         .assortment-button button {
             width: 500px;
             height: 64px;
@@ -1579,6 +1707,7 @@
             padding-bottom: 20px;
             text-align: left;
         }
+
         .assortment-button img {
             display: flex;
             padding: 0px;
@@ -1587,7 +1716,7 @@
             flex-direction: row;
         }
     }
-    
+
     @media (max-width: 675px) {
         .form-banner h2 {
             padding: 32px 18px 0px;
@@ -1595,12 +1724,14 @@
             line-height: 140%;
             max-width: 250px;
         }
+
         .form-banner h3 {
             padding: 10px 0px 0px 0px;
             font-size: 14px;
             line-height: 170%;
             max-width: 250px;
         }
+
         .form-banner form {
             width: 320px;
             height: 475px;
@@ -1608,16 +1739,19 @@
             background-position-x: 115%;
             background-position-y: 105%;
         }
+
         .form-banner input {
             width: 285px;
             margin: 10px 18px 0px;
         }
+
         .form-banner-inputs {
             padding: 10px 0px 0px 0px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
         }
+
         .form-banner-btn button {
             margin: 10px 0px 0px 0px;
             width: 285px;
@@ -1628,15 +1762,18 @@
             line-height: 143%;
             color: #333333;
         }
+
         .form-banner-container {
             display: flex;
             justify-content: center;
             padding-top: 40px;
         }
+
         .form-banner {
             background-size: cover;
             height: 555px;
         }
+
         .top-bags-item {
             margin: 30px 0px 0px 0px;
             width: 550px;
@@ -1646,13 +1783,16 @@
             align-items: center;
             overflow: hidden;
         }
+
         .assortment-img img {
             width: 292px;
             height: 296px;
         }
+
         .assortment-img {
             padding: 0px 0px 30px 0px;
         }
+
         .footer-content {
             padding: 50px 0px 40px 0px;
             display: flex;
@@ -1660,49 +1800,56 @@
             flex-wrap: wrap;
             justify-content: space-between;
         }
+
         .footer-item {
             margin: 0px 0px 30px 0px;
         }
+
         .footer-bottom-row-text {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+
         .footer-bottom-row-text h3 {
             display: flex;
         }
+
         .footer-bottom-row-text h4 {
             display: flex;
             padding: 0px;
             margin-top: -15px;
         }
     }
-    
+
     @media (max-width: 645px) {
         .assortment-img img {
             width: 282px;
             height: 286px;
         }
+
         .assortment-img {
             padding: 0px 0px 30px 0px;
         }
     }
-    
+
     @media (max-width: 620px) {
         .assortment-img img {
             width: 272px;
             height: 276px;
         }
+
         .assortment-img {
             padding: 0px 0px 30px 0px;
         }
     }
-    
+
     @media (max-width: 600px) {
         .get-price-form form {
             width: 570px;
             height: 475px;
         }
+
         .inputname,
         .inputphone,
         .inputmail {
@@ -1710,103 +1857,126 @@
             margin-left: 100px;
             justify-content: center;
         }
+
         .get-price-btn {
             margin-left: 100px;
         }
+
         .advantages-title {
             font-size: 26px;
         }
+
         .advantages-container {
             padding: 50px 0px 0px 0px;
         }
+
         .top-bags-item img {
             width: 200px;
             height: 240px;
         }
+
         .top-bags-item {
             margin: 30px 0px 0px 0px;
             width: 460px;
             height: 270px;
         }
+
         .top-bags-container h3 {
             font-size: 18px;
         }
+
         .top-bags-container h4 {
             font-size: 16px;
         }
+
         .assortment-img img {
             width: 262px;
             height: 266px;
         }
+
         .assortment-img {
             padding: 0px 0px 26px 0px;
         }
     }
-    
+
     @media (max-width: 580px) {
         .assortment-img img {
             width: 252px;
             height: 256px;
         }
+
         .assortment-img {
             padding: 0px 0px 26px 0px;
         }
     }
-    
+
     @media (max-width: 560px) {
         .assortment-img img {
             width: 252px;
             height: 256px;
         }
+
         .assortment-img {
             padding: 0px 0px 24px 0px;
         }
     }
-    
+
     @media (max-width: 540px) {
         .header-container {
             flex-direction: column;
         }
+
         .call {
             padding-top: 10px;
             display: flex;
             margin: auto;
             justify-content: center;
         }
+
         .number a {
             font-size: 20px;
         }
+
         .get-price-title {
             padding: 55px 0px 0px 0px;
             max-width: 600px;
         }
+
         .get-price-title h1 {
             font-size: 30px;
             line-height: 120%;
         }
+
         .get-price-label {
             padding: 0;
         }
+
         .label {
             padding: 30px 0px 0px 0px;
         }
+
         .get-price-text h3 {
             font-size: 16px;
         }
+
         .get-price-text {
             padding-top: 5px;
         }
+
         .gpt1 {
             max-width: 240px;
         }
+
         .gpt2 {
             max-width: 276px;
         }
+
         .get-price-form form {
             width: 320px;
             height: 475px;
             margin-bottom: 51px;
         }
+
         .get-price-form h3 {
             padding: 32px 17px 0px 18px;
             text-align: left;
@@ -1814,6 +1984,7 @@
             line-height: 140%;
             max-width: 230px;
         }
+
         .get-price-form h4 {
             padding: 10px 17px 0px 18px;
             font-size: 14px;
@@ -1821,6 +1992,7 @@
             text-align: left;
             max-width: 250px;
         }
+
         .inputname,
         .inputphone,
         .inputmail {
@@ -1828,6 +2000,7 @@
             padding: 18px 0px 18px 20px;
             margin: 10px 17px 0px 18px;
         }
+
         .get-price-btn {
             max-width: 285px;
             height: 68px;
@@ -1837,12 +2010,14 @@
             font-size: 14px;
             line-height: 20px;
         }
+
         .most-adventages-title {
             padding: 50px 0px 0px 0px;
             font-size: 20px;
             line-height: 140%;
             text-align: center;
         }
+
         .most-adventages-container {
             display: flex;
             flex-direction: column;
@@ -1850,73 +2025,87 @@
             justify-content: center;
             align-items: center;
         }
+
         .most-adventages-item {
             width: 320px;
             height: 370px;
             margin: 20px 0px 0px 0px;
         }
+
         .most-adventages-item h3 {
             padding: 0px 0px 20px 22px;
             max-width: 286px;
         }
+
         .most-adventages-item h4 {
             padding: auto;
             margin: 0px 0px 30px 22px;
             max-width: 286px;
         }
+
         .top-bags-title {
             font-size: 24px;
             line-height: 140%;
             max-width: 350px;
         }
+
         .top-bags-item img {
             width: 160px;
             height: 160px;
         }
+
         .top-bags-item {
             margin: 30px 0px 0px 0px;
             width: 400px;
             height: 270px;
         }
+
         .top-bags-container h3 {
             font-size: 16px;
         }
+
         .top-bags-container h4 {
             font-size: 14px;
         }
+
         .assortment-img img {
             width: 242px;
             height: 246px;
         }
+
         .assortment-img {
             padding: 0px 0px 22px 0px;
         }
     }
-    
+
     @media (max-width: 535px) {
         .assortment-img img {
             width: 238px;
             height: 242px;
         }
+
         .assortment-img {
             padding: 0px 0px 20px 0px;
         }
     }
-    
+
     @media (max-width: 525px) {
         .assortment-img img {
             width: 228px;
             height: 232px;
         }
+
         .assortment-img {
             padding: 0px 0px 18px 0px;
         }
+
         .assortment-button button {
             width: 360px;
             padding: 5px 15px 10px 15px;
             height: 74px;
             font-size: 14px;
         }
+
         .assortment-button img {
             margin: 0px;
             padding: 0px;
@@ -1924,212 +2113,246 @@
             margin-top: -40px;
         }
     }
-    
+
     @media (max-width: 505px) {
         .sn-text {
             display: none;
         }
+
         .advantages-title {
             font-size: 20px;
         }
+
         .advantage {
             max-width: 320px;
             height: 262px;
         }
+
         .assortment-title {
             font-size: 24px;
         }
+
         .assortment-img img {
             width: 220px;
             height: 224px;
         }
+
         .assortment-img {
             padding: 0px 0px 18px 0px;
         }
+
         .footer-row {
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
     }
-    
+
     @media (max-width: 485px) {
         .assortment-img img {
             width: 215px;
             height: 219px;
         }
+
         .assortment-img {
             padding: 0px 0px 18px 0px;
         }
     }
-    
+
     @media (max-width: 475px) {
         .assortment-img img {
             width: 205px;
             height: 209px;
         }
+
         .assortment-img {
             padding: 0px 0px 17px 0px;
         }
     }
-    
+
     @media (max-width: 455px) {
         .assortment-img img {
             width: 195px;
             height: 199px;
         }
+
         .assortment-img {
             padding: 0px 0px 16px 0px;
         }
     }
-    
+
     @media (max-width: 430px) {
         .good-offers-title h2 {
             font-size: 20px;
         }
+
         .top-bags-title {
             font-size: 20px;
             max-width: 200px;
         }
+
         .top-bags-item img {
             width: 100px;
             height: 122px;
             padding: 0px;
             margin: 0px;
         }
+
         .top-bags-item {
             margin: 30px 0px 0px 0px;
             width: 320px;
             height: 180px;
         }
+
         .top-bags-container h3 {
             font-size: 14px;
         }
+
         .top-bags-container h4 {
             font-size: 12px;
         }
+
         .top-bags-item-content {
             padding: 0px 15px 30px 0px;
         }
+
         .assortment-img img {
             width: 185px;
             height: 189px;
         }
+
         .assortment-img {
             padding: 0px 0px 15px 0px;
         }
+
         .footer-bottom-row-text {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
         }
     }
-    
+
     @media (max-width: 410px) {
         .assortment-img img {
             width: 175px;
             height: 189px;
         }
+
         .assortment-img {
             padding: 0px 0px 15px 0px;
         }
     }
-    
+
     @media (max-width: 390px) {
         .assortment-img img {
             width: 165px;
             height: 179px;
         }
+
         .assortment-img {
             padding: 0px 0px 14px 0px;
         }
+
         .assortment-button button {
             font-size: 12px;
             width: 320px;
             padding-right: 20px;
         }
+
         .assortment-button img {
             margin-left: 245px;
         }
     }
-    
+
     @media (max-width: 375px) {
         .good-offers-item {
             max-width: 320px;
             max-height: 680px;
         }
+
         .good-offers-img img {
             width: 320px;
             height: 594px;
         }
+
         .good-offers-btn button {
             margin: 30px 23px 28px 23px;
             padding: 13px 33px;
         }
+
         .assortment-img img {
             width: 160px;
             height: 174px;
         }
+
         .assortment-img {
             padding: 0px 0px 12px 0px;
         }
     }
-    
+
     @media (max-width: 359px) {
         .assortment-img img {
             width: 150px;
             height: 164px;
         }
+
         .assortment-img {
             padding: 0px 0px 11px 0px;
         }
     }
-    
+
     @media (max-width: 345px) {
         .top-bags-item {
             margin: 30px 0px 0px 0px;
             width: 290px;
             height: 160px;
         }
+
         .top-bags-item img {
             width: 90px;
             height: 112px;
             padding: 0px;
             margin: 0px;
         }
+
         .assortment-img img {
             width: 147px;
             height: 151px;
         }
+
         .assortment-img {
             padding: 0px 0px 10px 0px;
         }
+
         .assortment-button button {
             font-size: 12px;
             width: 290px;
             padding-right: 20px;
         }
+
         .assortment-button img {
             margin-left: 235px;
             margin-top: -40px;
         }
     }
-    
+
     @media (max-width: 335px) {
         .assortment-img img {
             width: 145px;
             height: 149px;
         }
+
         .assortment-img {
             padding: 0px 0px 11px 0px;
         }
     }
-    
+
     @media (max-width: 330px) {
         .assortment-img img {
             width: 140px;
             height: 144px;
         }
+
         .assortment-img {
             padding: 0px 0px 10px 0px;
         }
