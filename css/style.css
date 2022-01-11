@@ -949,6 +949,10 @@
         color: #F4F4F4;
     }
 
+    .footer-item h4:hover {
+        color: #FFCA33;
+    }
+
     .footer-bottom-row {
         border-top: 1px solid #828282;
     }
@@ -972,6 +976,11 @@
         font-size: 14px;
         line-height: 160%;
         color: #828282;
+    }
+
+    .footer-bottom-row-text h3:hover,
+    .footer-bottom-row-text h4:hover {
+        color: #FFCA33;
     }
 
     .item-bag-main-container {
