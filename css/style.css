@@ -1086,7 +1086,9 @@
             height: 262px;
         }
 
-        #top-bags-item-4 {
+        #top-bags-item-4,
+        #top-bags-item-44
+         {
             display: none;
         }
 
@@ -1337,7 +1339,9 @@
             padding: 60px 0px 50px 00px;
         }
 
-        #assortment-img-4 {
+        #assortment-img-4,
+        #assortment-img-44,
+        #assortment-img-444 {
             display: none;
         }
 
