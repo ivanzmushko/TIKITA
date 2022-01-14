@@ -57,7 +57,10 @@
     }
 
     /* reset */
-
+    ::selection {
+        background: #FFCA33;
+        color: #FFFFFF;
+    }
     .header {
         background-image: url(../img/cover.jpg);
         background-repeat: no-repeat;
