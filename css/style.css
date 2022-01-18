@@ -852,7 +852,9 @@
         justify-content: center;
         margin: auto;
     }
-
+    .assortment-button a {
+        color: #333333;
+    }
     .assortment-button button {
         width: 653px;
         height: 50px;
